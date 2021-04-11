@@ -1,0 +1,169 @@
+<head>
+    <title>CSS Template</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style>
+      /* Esta  sección de estilos se debe pasar al estilo CSS externo (enlazar con un archivo CSS) */
+  
+      * {
+        box-sizing: border-box;
+      }
+  
+      body {
+        font-family: Arial, Helvetica, sans-serif;
+      }
+  
+      /* Style the header */
+      header {
+        background-color: #666;
+        padding: 30px;
+        text-align: center;
+        font-size: 20px;
+        color: white;
+      }
+  
+      /* Crea 2 columnas/cajas que flotan  una al lado de la otra */
+  
+      section {
+        float: left;
+        padding: 20px;
+        width: 50%;
+        background-color: #f1f1f1;
+  
+      }
+  
+      aside {
+        float: left;
+        max-width: 30%;
+        background: #ccc;
+        padding: 20px;
+        align-self: auto;
+      }
+  
+      .lateral2{
+        float: left;
+        max-width: 20%;
+        background: #ccc;
+        padding: 20px;
+        align-self: auto;
+      }
+  
+  
+      /* Clear floats after the columns */
+  
+      .central:after {
+        content: "";
+        display: table;
+        clear: both;
+      }
+  
+      /* Style the footer */
+      footer {
+        background-color: #777;
+        padding: 10px;
+        text-align: center;
+        color: white;
+      }
+    /*Menu*/
+  
+    * {
+              margin: 0;
+              padding: 0;
+              box-sizing: border-box;
+          }
+  
+          .menu-area a {
+              display: flex;
+              align-items: center;
+              justify-content: center;
+              color: #fff;
+              background: black;
+              height: 50px;
+              text-decoration: none;
+          }
+  
+          .menu-area a:hover {
+              background: tomato;
+              color: #fff;
+  
+          }
+  
+          .menu-area ul {
+              list-style: none;
+              display: flex;
+          }
+  
+          .menu-area li {
+              position: relative;
+              width: 100%;
+              text-align: center;
+          }
+  
+          .menu-area li:hover .dropdown-1>li {
+              top: 0;
+              display: block;
+          }
+  
+          .dropdown-1 li {
+              display: none;
+              position: relative;
+          }
+  
+          .dropdown-1 {
+              position: absolute;
+              display: flex;
+              flex-direction: column;
+              width: 100%;
+          }
+  
+          .dropdown-1 li:hover {
+              display: block;
+          }
+  
+    </style>
+  </head>
+  
+  <body>
+  
+ 
+    </header>
+    <nav class="menu-area">
+      <ul>
+          <li> <a href="#">Inicio</a> </li>
+          <li><a href="#">temas</a>
+            
+              <ul class="dropdown-1">
+                  <li><a href="index2.html">tema1</a></li>
+                  <li><a href="index3.html">tema 2</a></li>
+              </ul>
+          </li>
+          <li><a href="#">Recursos</a>
+              <ul class="dropdown-1">
+                  <li> <a href="index5.html">Recurso 1</a> </li>
+                  <li><a href="#">Recurso 2</a></li>
+              </ul>
+          </li>
+          <li><a href="index4.html">Autor</a></li>
+      </ul>
+  </nav>
+    <div class="central">
+      <aside>
+        <h5> Caja lateral</h5>
+       
+        
+        <p>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <img src=" https://image.slidesharecdn.com/etiquetashtml-120501213355-phpapp01/95/etiquetas-html-1-728.jpg?cb=1335908608" alt="">
+    <img src=" https://www.blogdephp.com/wp-content/uploads/2018/09/etiquetas-atributos-html.png" alt="">
+    <img src=" https://cursoprogramador.files.wordpress.com/2012/06/tablas3.jpg" alt="">
+    <img src=" https://i.ytimg.com/vi/gaxsPBw-fqQ/mqdefault.jpg" alt="">
+</body>
+</html>
